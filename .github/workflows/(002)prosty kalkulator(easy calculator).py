@@ -12,16 +12,16 @@ while code != 5:
         num2 = float(input('wpisz liczbe')) #write second number
         print (num1 + num2)
     elif code == (2): #subtraction
-        num1 = float(input('wpisz liczbe')) #write first number
-        num2 = float(input('wpisz liczbe')) #write second number
+        num1 = float(input('wpisz liczbe')) 
+        num2 = float(input('wpisz liczbe')) 
         print (num1 - num2)
     elif code == (3): #multiplication
-        num1 = float(input('wpisz liczbe')) #write first number
-        num2 = float(input('wpisz liczbe')) #write second number
+        num1 = float(input('wpisz liczbe')) 
+        num2 = float(input('wpisz liczbe')) 
         print (num1 * num2)
     elif code == (4): #division
-        num1 = float(input('wpisz liczbe')) #write first number
-        num2 = float(input('wpisz liczbe')) #write second number
+        num1 = float(input('wpisz liczbe')) 
+        num2 = float(input('wpisz liczbe')) 
         print (num1 / num2)    
 else:
     print('KONIEC')
