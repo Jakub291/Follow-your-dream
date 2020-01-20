@@ -8,20 +8,20 @@ while code != 5:
     print ('jeśli chcesz wyjsc kliknij 5')
     code = int(input('co chcesz zrobic?'))
     if code == (1): #addition
-        num1 = int(input('wpisz liczbe')) #write first number
-        num2 = int(input('wpisz liczbe')) #write second number
+        num1 = float(input('wpisz liczbe')) #write first number
+        num2 = float(input('wpisz liczbe')) #write second number
         print (num1 + num2)
     elif code == (2): #subtraction
-        num1 = int(input('wpisz liczbe')) #write first number
-        num2 = int(input('wpisz liczbe')) #write second number
+        num1 = float(input('wpisz liczbe')) #write first number
+        num2 = float(input('wpisz liczbe')) #write second number
         print (num1 - num2)
     elif code == (3): #multiplication
-        num1 = int(input('wpisz liczbe')) #write first number
-        num2 = int(input('wpisz liczbe')) #write second number
+        num1 = float(input('wpisz liczbe')) #write first number
+        num2 = float(input('wpisz liczbe')) #write second number
         print (num1 * num2)
     elif code == (4): #division
-        num1 = int(input('wpisz liczbe')) #write first number
-        num2 = int(input('wpisz liczbe')) #write second number
+        num1 = float(input('wpisz liczbe')) #write first number
+        num2 = float(input('wpisz liczbe')) #write second number
         print (num1 / num2)    
 else:
     print('KONIEC')
