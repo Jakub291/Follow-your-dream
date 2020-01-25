@@ -22,6 +22,10 @@ while code != 5:
     elif code == (4): #division
         num1 = float(input('wpisz liczbe')) 
         num2 = float(input('wpisz liczbe')) 
-        print (num1 / num2)    
+        try:
+            num2 != 0 
+            print (num1 / num2)
+        except ZeroDivisionError as blad:
+            print("you can't divide by 0")
 else:
     print('KONIEC')
