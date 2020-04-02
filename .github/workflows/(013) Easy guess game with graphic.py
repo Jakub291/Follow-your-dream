@@ -38,3 +38,5 @@ def pudlo():
     etykieta = Label(t, text = "Trafiłeś zle!")
     etykieta.pack(fill=BOTH,expand=YES)
     t.after(5000,restart)
+
+wstaw_przyciski()
