@@ -21,7 +21,7 @@ def wstaw_przyciski():
 
 def trafiony():
     for i in przyciski:
-        i.destroy
+        i.destroy()
     global etykieta
     etykieta = Label(t, text = "Trafiłeś!")
     etykieta.pack(fill=BOTH,expand=YES)
@@ -33,7 +33,7 @@ def restart ():
 
 def pudlo():
     for i in przyciski:
-        i.destroy
+        i.destroy()
     global etykieta
     etykieta = Label(t, text = "Trafiłeś zle!")
     etykieta.pack(fill=BOTH,expand=YES)
